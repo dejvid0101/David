@@ -9,9 +9,10 @@ int main() {
     srand(time(nullptr));
 	game_of_life the_game;
 
+the_game.stvaranje();
 	bool dalje;
 	do {
-		the_game.stvaranje();
+		the_game.iteracija();
 		the_game.iscrtaj();
 
 		cout << "Dalje (1/0): ";

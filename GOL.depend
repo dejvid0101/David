@@ -3,19 +3,19 @@
 	<iostream>
 	<ctime>
 
-1622381311 source:c:\users\nbsel\desktop\gol\program.cpp
+1622391891 source:c:\users\nbsel\desktop\gol\program.cpp
 	<iostream>
 	<string>
 	<fstream>
 	"game_of_life.h"
 	<ctime>
 
-1622371153 c:\users\nbsel\desktop\gol\game_of_life.h
+1622391724 c:\users\nbsel\desktop\gol\game_of_life.h
 	<iostream>
 	<string>
 	<fstream>
 
-1622381297 source:c:\users\nbsel\desktop\gol\game_of_life.cpp
+1622391724 source:c:\users\nbsel\desktop\gol\game_of_life.cpp
 	<iostream>
 	<string>
 	<fstream>

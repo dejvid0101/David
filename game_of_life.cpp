@@ -22,15 +22,20 @@ void game_of_life::iscrtaj(){
 
 }
 
+void game_of_life::iteracija(){
+for(int i=0;i<=9;i++){
+    for(int j=0;j<=9;j++){
+        polje[i][j]=blabla(provjera(i,j,polje),gaga(i,j,polje));
+    }}
+
+}
+
 void game_of_life::stvaranje(){
 
 for(int i=0;i<=9;i++){
     for(int j=0;j<=9;j++){polje[i][j]=gen_rnd(0,3);}
     }
-    for(int i=0;i<=9;i++){
-    for(int j=0;j<=9;j++){
-        polje[i][j]=blabla(provjera(i,j,polje),gaga(i,j,polje));
-    }}
+
 }
 
 bool game_of_life::gaga(int i,int j, bool polje[10][10]){

@@ -20,6 +20,7 @@ public:
 	void sljedeca_generacija();
 	void stvaranje();
 	void iscrtaj();
+	void iteracija();
 
 };
 
